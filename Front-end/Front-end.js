@@ -4,8 +4,7 @@ const videos = document.querySelectorAll("video");
 let animation = [null, null];
 
 const imageBoxs = document.querySelectorAll(".imageBox");
-console.log(images);
-console.log(imageBoxs);
+
 imageBoxs.forEach((image, index) => {
   image.addEventListener("mouseenter", () => {
     // 播放正向動畫
